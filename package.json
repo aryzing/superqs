@@ -1,5 +1,5 @@
 {
-  "name": "superqs",
+  "name": "super-qs",
   "version": "0.0.1",
   "description": "Build and parse URL-safe query strings from arbitrary values",
   "keywords": [
@@ -29,7 +29,8 @@
   "module": "./dist/index.js",
   "scripts": {
     "test": "vitest",
-    "build": "vite build"
+    "build": "vite build",
+    "publish": "npm publish --tag latest"
   },
   "devDependencies": {
     "@types/bun": "latest",
