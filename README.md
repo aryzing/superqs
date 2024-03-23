@@ -18,6 +18,7 @@ bun add @aryzing/superqs
 
 - Sending data to a browser extension popup.
 - Creating shareable links containing application state.
+- Passing non-text data to custom elements.
 
 ## Usage
 
