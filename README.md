@@ -35,7 +35,7 @@ const data = {
   bin: new Uint8Array([42, 24]),
 };
 
-// Creates a URL-safe string representing the data above.
+// Create a URL-safe string representing the data above.
 const stringifiedData = stringify(data);
 
 // Use the stringified data to construct a URL.
