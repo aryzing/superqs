@@ -1,0 +1,44 @@
+{
+  "name": "superqs",
+  "version": "0.0.1",
+  "description": "Build and parse URL-safe query strings from arbitrary values",
+  "keywords": [
+    "query",
+    "string",
+    "url",
+    "url-safe",
+    "urlencoded",
+    "querystring",
+    "qs",
+    "query-string"
+  ],
+  "homepage": "https://github.com/aryzing/superqs",
+  "bugs": {
+    "url": "https://github.com/aryzing/superqs/issues"
+  },
+  "license": "MIT",
+  "author": "Eduard Bardají Puig",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "module": "./dist/index.js",
+  "scripts": {
+    "test": "vitest",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.0.0",
+    "vite": "5.2.3",
+    "vite-plugin-dts": "3.7.3",
+    "vitest": "1.4.0"
+  },
+  "dependencies": {
+    "superjson": "2.2.1"
+  }
+}
