@@ -1,5 +1,5 @@
 {
-  "name": "super-qs",
+  "name": "@aryzing/superqs",
   "version": "0.0.1",
   "description": "Build and parse URL-safe query strings from arbitrary values",
   "keywords": [
