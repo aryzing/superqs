@@ -1,17 +1,17 @@
-# `@aryzing/superqs`
+# `superqs`
 
 Create and parse URL-safe query strings from arbitrary values.
 
 Install with
 
 ```bash
-npm i @aryzing/superqs
+npm i superqs
 # or
-yarn add @aryzing/superqs
+yarn add superqs
 # or
-pnpm i @aryzing/superqs
+pnpm i superqs
 # or
-bun add @aryzing/superqs
+bun add superqs
 ```
 
 ## Use cases
@@ -23,7 +23,7 @@ bun add @aryzing/superqs
 ## Usage
 
 ```ts
-import { stringify, parse } from "@aryzing/superqs";
+import { stringify, parse } from "superqs";
 
 // Create a value of any type. This example uses an object, although any value
 // can be used.
