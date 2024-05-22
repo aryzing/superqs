@@ -1,6 +1,6 @@
 {
   "name": "superqs",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Build and parse URL-safe query strings from arbitrary values",
   "keywords": [
     "query",
@@ -26,6 +26,7 @@
   "files": [
     "dist"
   ],
+  "types": "./dist/index.d.ts",
   "module": "./dist/index.js",
   "scripts": {
     "test": "vitest",
