@@ -1,29 +1,23 @@
-# `superqs`
+# @aryzing/superqs
 
 Create and parse URL-safe query strings from arbitrary values.
 
 Install with
 
-```bash
-npm i superqs
+```shell
+npm i @aryzing/superqs
 # or
-yarn add superqs
+yarn add @aryzing/superqs
 # or
-pnpm i superqs
+pnpm i @aryzing/superqs
 # or
-bun add superqs
+bun add @aryzing/superqs
 ```
-
-## Use cases
-
-- Sending data to a browser extension popup.
-- Creating shareable links containing application state.
-- Passing non-text data to custom elements.
 
 ## Usage
 
 ```ts
-import { stringify, parse } from "superqs";
+import { stringify, parse } from "@aryzing/superqs";
 
 // Create a value of any type. This example uses an object, although any value
 // can be used.
@@ -50,6 +44,12 @@ const parsedData = parse(stringifiedDataParam);
 // The `data` and `parsedData` values are equal.
 expect(parsedData).toEqual(data); // true
 ```
+
+## Use cases
+
+- Sending data to a browser extension popup.
+- Creating shareable links containing application state.
+- Passing non-text data to custom elements.
 
 # Development
 
